@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /**
- * main prints the last digit
+ * main prints the last digit from a randomly generated number
+ * wether it is greater than 5, less than 6 or equal zero.
  *
- * return always 0.
+ * Return: Always 0.
  */
 
 int main(void)
