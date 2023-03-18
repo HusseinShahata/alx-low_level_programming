@@ -1,26 +1,43 @@
 #include <stdio.h>
 
-/*
- * main - Write a program that prints all possible different combinations of two digits
- * 	  Numbers must be separated by , followed by a space
- * 	  The two digits must be different.
- *
- * Return : 0 success
+/**
+ * main - print numbers from 00 to 99.
+(*
+ * Return: Always 0
  */
 
 int main(void)
 {
-	int c = '01';
+	int i = '1';
+	int j = '0';
 
-	while (c <= 98)
+	while (i <= '8')
 	{
-		putchar('c');
-		putchar(',');
-		putchar(' ');
+		while (j <= '9')
+		{
+			putchar(i);
+
+			putchar(j);
+
+			if (i == '8' && j == '9')
+			{
+				putchar('\n');
+			}
+			else
+			{
+				putchar(',');
+
+				putchar(' ');
+			}
+
+			j++;
+		}
+		if (j >= '9')
+		{
+			j = '0';
+		}
+		i++;
 	}
-	c++;
-
-	putchar('\n');
-
 	return (0);
 }
+
