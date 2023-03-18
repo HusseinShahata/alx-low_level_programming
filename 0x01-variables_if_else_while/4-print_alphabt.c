@@ -2,7 +2,7 @@
 
 /**
  * main -prins all alphabet except letter q and letter e
- *
+(*
  *
  * Return: Always 0
  */
@@ -18,6 +18,7 @@ int main(void)
 			putchar('c');
 		}
 		putchar('\n');
+		c++
 	}
 	return (0);
 }
