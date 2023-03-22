@@ -3,9 +3,9 @@
 /**
  * _abs() - Writes a function that computes the absolute value of an integer.
  *
- * @n is the integer character.
+ * @n: the int to check
  *
- * Return -n if n is not greater than zero.
+ * Return: the absolute value of int.
  */
 
 int _abs(int n);
