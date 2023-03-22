@@ -8,7 +8,7 @@
  * Return (-n) if n is not greater than zero.
  */
 
-int _abs(int);
+int _abs(int n);
 {
 	if (n >= 0)
 	{
