@@ -4,7 +4,8 @@
  * 8-24_hours - Write a function that prints every minute of the day
  * of Jack Bauer, starting from 00:00 to 23:59.
  * 
- * Return: Always 0.
+ * @i: is hours
+ * @j: is minutes
  */
 
 void jack_bauer(void)
