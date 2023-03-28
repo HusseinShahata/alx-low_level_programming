@@ -1,11 +1,13 @@
 #include <main.h>
 
 /**
- *swap_int - Write a function that swaps the values of two integers.
- *@a: address 1
- *@b: address 2
- *temp: reservoir
+ * swap_int - function that swaps the values of two integers.
+ * @a: this is the first entry
+ * @b: this is the second entry
+ *
+ *
  */
+
 void swap_int(int *a, int *b)
 {
 	int temp;
