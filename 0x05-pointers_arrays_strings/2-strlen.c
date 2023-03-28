@@ -3,16 +3,18 @@
 /*
  * int _strlen - Function that returns the length of a string.
  *
- *@index: variable to take the input characters. 
+ * @index: array var
  *
- * return: the length.
+ * return: the length 
+ *
  */
 
 int _strlen(char *s)
 {
-	int index;
+        int index;
 
-	for(index = 0; s[index] != '\0'; index++)
-		;
-	return (index);
+        for(index = 0; s[index] != '\0'; index++)
+                ;
+
+        return (index);
 }
