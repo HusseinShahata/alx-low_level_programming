@@ -5,10 +5,8 @@
  * , to stdout
  *
  * @str: input string
- * 
- * @index: var
- *
  */
+
 void _puts(char *str)
 {
 	int index;
