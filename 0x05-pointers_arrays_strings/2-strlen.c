@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * int _strlen - Function that returns the length of a string.
+ * _strlen - Function that returns the length of a string.
  *
  * @index: array var
  *
