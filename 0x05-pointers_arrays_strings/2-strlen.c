@@ -3,9 +3,9 @@
 /*
  * _strlen - Function that returns the length of a string.
  *
- * @index: array var
+ * @s: input string
  *
- * return: the length 
+ * Return: returns the length 
  *
  */
 
