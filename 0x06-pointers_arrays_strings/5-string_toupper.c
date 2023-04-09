@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/*
+/**
+ * string_toupper - converts string lowercase letters to uppercase
+ * @s: input string to be converted
+ *
+ * Return: string after conversion to upper
  */
 
 char *string_toupper(char *)
