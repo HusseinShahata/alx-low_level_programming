@@ -1,4 +1,4 @@
-#include "bootcamp.h"
+#include "main.h"
 /**
  * reverse_array - reverses array of integers
  * @a: input array
