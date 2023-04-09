@@ -7,18 +7,12 @@
  * Return: string after conversion to upper
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-	int i = 0;
+	int j;
 
-	while (s[i] != '\0')
-	{
-
-		if (s[i] >= 97 && s[i] <= 122)
-		{
-			s[i] = s[i] - 32;
-		}
-		i++;
-	}
+	for (j = 0; s[j] != '\0'; j++)
+		if (s[j] > 96 && s[j] < 123)
+			s[j] -= 32;
 	return (s);
 }
