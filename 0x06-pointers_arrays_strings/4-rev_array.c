@@ -1,5 +1,4 @@
-#include "main.h"
-
+#include "bootcamp.h"
 /**
  * reverse_array - reverses array of integers
  * @a: input array
@@ -7,11 +6,10 @@
  *
  * Return: void
  */
-
 void reverse_array(int *a, int n)
 {
-	int i, temp;
+	int j, temp, i = n;
 
-	for (i = 0; i < n / 2; i++, n--)
-		temp = a[i], a[i] = a[n], a[n] = temp;
+	for (i--, j = 0; j < n / 2; j++, i--)
+		temp = a[j], a[j] = a[i], a[i] = temp;
 }
