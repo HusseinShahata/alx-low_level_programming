@@ -19,11 +19,14 @@ char *cap_string(char *s)
 		/*check for any lowercase letters*/
 		if (s[i] >= 97 && s[i] <= 122)
 		{
+			/**
+			 * if we have a null character
+			 * change its value to capital
+			*/
 			if (i == 0)
 			{
- 				s[i] -= 32;
- 			}
-
+				s[i] -= 32;
+			}
 			/**
 			 * if we find any character matching the below before any small
 			 * letter we change that value to a capital letter.
