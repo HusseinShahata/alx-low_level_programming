@@ -16,4 +16,5 @@ char *cap_string(char *)
 		{
 			break;
 		}
+	return (s);
 }
