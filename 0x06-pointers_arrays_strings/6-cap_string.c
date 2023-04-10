@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * cap_string - a function that capitalizes
  *              all words of a string
@@ -19,9 +20,9 @@ char *cap_string(char *s)
 		if (s[i] >= 97 && s[i] <= 122)
 		{
 			if (i == 0)
-                        {
-                                s[i] -= 32;
-                        }
+			{
+ 				s[i] -= 32;
+ 			}
 
 			/**
 			 * if we find any character matching the below before any small
