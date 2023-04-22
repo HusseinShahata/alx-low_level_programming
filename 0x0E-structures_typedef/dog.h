@@ -1,18 +1,17 @@
-#include <stdlib.h>
-#include "dog.h"
+#ifndef DOG_H
+#define DOG_H
 /**
-  * init_dog - initialize struct dog.
-  * @d: name of struct
-  * @name: name of dog in struct
-  * @age: age of dog in struct
-  * @owner: name of owner of dog in struct
-  */
-void init_dog(struct dog *d, char *name, float age, char *owner)
+ * struct dog - dog data
+ * @name: name of the dog
+ * @age: age of the dog
+ * @owner: name of the owner of the dog
+ *
+ * Description: Defines metadata about the dog and type of dog's struct
+ */
+typedef struct dog
 {
-	if (d)
-	{
-		d->name = name;
-		d->age = age;
-		d->owner = owner;
-	}
-}
+	char *name;
+	float age;
+	char *owner;
+} dog_t;
+#endif
