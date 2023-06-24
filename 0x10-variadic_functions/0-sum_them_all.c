@@ -3,9 +3,12 @@
 
 /**
  * sum_them_all - sums all the arguments passed to the function
+ *
  * @n: the number of arguments provided
+ *
  * @...: the arguments
- * Return: sum
+ *
+ * Return: sum or zero
  */
 
 int sum_them_all(const unsigned int n, ...)
@@ -21,7 +24,7 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_start(as, n);
 
-	for (i = 0; i < n; i++)
+	for (i = 0 ; i < n ; i++)
 	{
 		sum += va_arg(as, unsigned int);
 	}
