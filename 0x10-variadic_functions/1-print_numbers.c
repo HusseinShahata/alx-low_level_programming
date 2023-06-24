@@ -6,9 +6,7 @@
  * print_numbers - prints number arguments passed to it
  *
  * @separator: the separator string or character
- *
  * @n: number of arguments excluding the separator
- *
  * @...: arguments
  **/
 
