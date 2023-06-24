@@ -2,5 +2,6 @@
 #define _VARIADIC_H_
 
 #include <stdarg.h>
+#include <stdio.h>
 
 #endif
