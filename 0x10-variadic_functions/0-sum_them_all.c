@@ -2,13 +2,13 @@
 #include "variadic_functions.h"
 
 /**
- * sum_them_all - sums all the arguments passed to the function
+ * sum_them_all - sums all the arguments passed to the function.
  *
- * @n: the number of arguments provided
+ * @n: the number of arguments provided.
  *
- * @...: the arguments
+ * @...: the arguments.
  *
- * Return: sum or zero
+ * Return: sum or zero.
  */
 
 int sum_them_all(const unsigned int n, ...)
