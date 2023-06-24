@@ -6,7 +6,6 @@
  * sum_them_all - Sums all the arguments passed to the function.
  *
  * @n: The number of arguments provided.
- *
  * @...: A variable number of paramters to calculate the sum of.
  *
  * Return: Sum or zero.
