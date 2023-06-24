@@ -5,6 +5,7 @@
  * sum_them_all - a function that returns the sum of all its parameters.
  *
  * @n: unsigned integer.
+ * @sum: sum of all parameters.
  *
  * Return: sum or zero.
  */
