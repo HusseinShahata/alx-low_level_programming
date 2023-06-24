@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdio.h>
 #include <stdarg.h>
 
 /**
@@ -6,6 +7,7 @@
  *
  * @n: unsigned integer.
  * @sum: sum of all parameters.
+ * @...: A variable number of paramters to calculate the sum of.
  *
  * Return: sum or zero.
  */
