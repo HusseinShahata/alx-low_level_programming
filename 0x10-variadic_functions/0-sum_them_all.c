@@ -2,10 +2,10 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - a function that returns the sum of all its parameters.
+ * sum_them_all - a function that returns the sum.
  *
  * @n: unsigned integer.
- * @sum: sum of all parameters.
+ *
  * @...: A variable number of paramters to calculate the sum of.
  *
  * Return: sum or zero.
@@ -14,12 +14,14 @@ int sum_them_all(const unsigned int n, ...)
 {
 	va_list args;
 
-	int i = 0;
+	unsigned int i = 0;
 
-	unsigned int sum = 0;
+	int sum = 0;
 
 	if (n == 0)
+	{
 		return (0);
+	}
 
 	va_start(args, n);
 
