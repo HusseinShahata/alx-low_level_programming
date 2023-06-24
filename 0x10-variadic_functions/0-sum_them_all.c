@@ -2,9 +2,9 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - a function that returns the sum.
+ * sum_them_all - sums all the arguments passed to the function.
  *
- * @n: unsigned integer.
+ * @n: the number of arguments provided.
  *
  * @...: A variable number of paramters to calculate the sum of.
  *
