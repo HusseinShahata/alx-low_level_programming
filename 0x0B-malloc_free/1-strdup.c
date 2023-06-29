@@ -1,7 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
-
 
 /**
  * _strdup - returns a pointer to a newly allocated space in memory,
@@ -41,7 +39,5 @@ char *_strdup(char *str)
 		ar[j] = str[j];
 		j++;
 	}
-
-	ar[j + 1] = 0;
 	return (ar);
 }
