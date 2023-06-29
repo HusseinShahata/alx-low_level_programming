@@ -39,11 +39,20 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
+	
+	i = j = 0;
 
-	while (ar[k] != '\0')
+	while (s1[i] != '\0')
 	{
-		k++;
+		ar[i] = s1[i];
+		i++;
 	}
+	while (s2[j] != '\0')
+	{
+		ar[i] = s2[j];
+		i++, j++;
+	}
+	ar[i + 1] = '\0';
 
 	return (ar);
 }
