@@ -10,7 +10,7 @@
  * Description: singly linked list node structure
  * project
  */
-typedef struct list_t 
+typedef struct list_t
 {
 	char *str;
 	int len;
